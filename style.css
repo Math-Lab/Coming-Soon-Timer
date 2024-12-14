@@ -1,0 +1,58 @@
+body{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-family: "Exo 2", sans-serif;
+}
+.container{
+ background-image: url(background.png);
+ width: 100vw;
+ height: 100vh;
+ background-position: center;
+ background-size: cover;
+ padding: 0 8%;
+  
+}
+.logo-main img{
+  width: 120px;
+  margin-top: 30px;
+}
+h1{
+  color: white;
+  margin-bottom: -18px;;
+}
+h1 span{
+  color: orangered;
+}
+.Timing{
+  color: white;
+  display: flex;
+  
+}
+.Timing div{
+  flex-basis: 100px;
+   }
+.Timing div p{
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+.rocket-main img{
+  position: absolute;
+  right: 10%;
+  width: 250px;
+  animation: roket 4s linear infinite;
+  bottom: 0%;
+}
+@keyframes roket{
+  0% {
+    opacity: 0;
+    bottom: 0%;
+  }
+  100%{
+    opacity: 1;
+    bottom: 105%;
+  }
+}
+.Timing div span {
+  margin-left: 4px;
+}
